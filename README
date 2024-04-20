@@ -1,0 +1,37 @@
+
+==========================
+Installation Instructions:
+==========================
+
+For detailed instructions see: http://dev.deluge-torrent.org/wiki/Installing/Source
+
+Ensure build dependencies are installed, see DEPENDS for a full listing.
+
+Build and install by running:
+
+    $ python setup.py build
+    $ sudo python setup.py install
+==========================
+FAQ
+==========================
+
+For the full FAQ see: http://dev.deluge-torrent.org/wiki/Faq
+
+How to start the various user-interfaces
+
+    Gtk:
+        deluge or deluge-gtk
+    Console:
+        deluge-console
+    Web:
+        deluge-web
+        Go to http://localhost:8112/ default-password = "deluge"
+    
+How do I start the daemon?
+
+    deluged
+
+I can't connect to the daemon from another machine
+
+    See: http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient
+
